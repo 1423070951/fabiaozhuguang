@@ -1,0 +1,148 @@
+/* 产品展示 */
+.products{
+    padding-top: 80px; 
+    .container{
+        background-color: #fff;
+    }
+ 
+    .big{
+        width: 1115px;
+        height: 500px;
+        margin: auto;
+        background-image: url("../img/banner8.jpg");
+        background-size: cover;
+        a{
+            background-color: rgba(0, 0, 0, 0.51);
+            opacity: 0;
+            color: #fff;
+            text-align: center;
+            font-size: 14px;
+            display: block;
+            line-height: 2.0em;
+            width: 1115px;
+            height: 500px;
+            text-decoration: none;
+            padding-top: 150px;
+            transition: all 600ms;
+            &:hover{
+                transition: all 600ms;
+               opacity: 1; 
+            }
+            h3{
+                font-size: 25px;
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+                width: 150px;
+                margin: auto;
+            }
+        }
+    }
+    
+}
+.products{
+    margin-bottom: 50px;
+    .one{
+        h2{
+            font-size: 40px;
+            color:#80684d;
+            margin-top: 60px;
+            margin-bottom: 22px; 
+        }
+        p{
+            font-size: 28px;
+            margin-bottom: 36px;
+        }
+    }
+}
+#div{
+//    width: 800px;
+    padding-left: 28px;
+    padding: 28px;
+}
+#da::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+#da{
+margin-bottom: 20px;
+    .img5{
+        margin-right: 20px;
+    }
+}
+.dayou{
+    h5{
+    color: #6b3e1d;
+        font-weight: 600;
+        }
+    p{
+        font-size: 12px;
+    }
+}
+.dayou,#da{
+    float: left;
+}
+#xiao{
+    .left,.right{
+        float: left;
+        width: 20px;
+        color: #888787;
+        text-align: center;
+         border: 1px solid #888787;
+         padding-top: 31px;
+        padding-bottom: 31.5px;
+         cursor: pointer;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    .left{
+        margin-right: 15px; 
+        clear: both;
+    }
+    .right{
+        float: right;
+        margin-right: 27px;
+    }
+}
+.dayou{
+    margin-left: -25px;
+    
+}
+#xiao::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+#xiao ul{
+    padding-left: 0;
+    float: left;
+}
+#xiao ul li{
+    width: 100px;
+    float: left;
+    list-style: none;
+     cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#xiao ul li img{
+    width: 100px;
+}
+
+
+@media (max-width:720px){
+    .products .big, #xiao .left, #xiao .right {
+    display: none;
+}
+   #xiao{
+    padding-left: 0;
+    /* float: left; */
+    width: 240px;
+    margin: auto;
+}
+    #xiao ul li {
+    margin-bottom: 20px;
+    }
+
+}

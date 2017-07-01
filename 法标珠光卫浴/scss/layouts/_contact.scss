@@ -1,0 +1,71 @@
+/* 网站底部 */
+.contact{
+     padding-top: 60px; 
+    margin-bottom: 50px;
+    .container{
+        background-color: #fff;
+    }
+    .one{
+        h2{
+            font-size: 40px;
+            color:#80684d;
+            margin-top: 60px;
+            margin-bottom: 22px; 
+        }
+        p{
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+    }  
+    .min{
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 50px;
+        ul{
+            padding-left: 0;
+            li{
+                text-align: center;
+                list-style: none;
+                font-size: 12px;
+                h4{
+                    color: #886b54;
+                    padding-top: 20px;
+                    border-top: 1px solid #b19071;
+                }
+                a{
+                    color: #000;
+                    
+                }
+            }
+        }
+        img{
+            margin: auto;
+            display: block;
+            margin-top: 50px;
+        }
+        p{
+            text-align: center;
+            color: #6f421f;
+            font-weight: 600;
+        }
+    }
+    
+}
+/*百度地图*/
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+#dituContent{
+    margin: auto;
+    width:800px;height:400px;border:#ccc solid 1px;
+}
+@media ( max-width:720px ){
+.contact .min {
+    padding-left: 0;
+    padding-right: 0;
+}
+    #dituContent{
+        width: 100%;
+        height: 200px;
+    }
+
+    }

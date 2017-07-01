@@ -1,0 +1,73 @@
+.course{
+    padding-top: 60px; 
+    margin-bottom: 50px;
+    .container{
+        background-color: #fff;
+    }
+    .one{
+       
+        h2{
+            font-size: 40px;
+            color:#80684d;
+            margin-top: 60px;
+            margin-bottom: 22px; 
+        }
+        p{
+            font-size: 28px;
+            margin-bottom: 36px;
+        }
+    }
+    .two{
+         border-top: 1px solid #b19071;
+        margin-left: 80px;
+            margin-right: 80px;
+        p{
+            font-size: 25px;
+            color:#80684d;
+            margin-top: 20px;
+            
+            margin-bottom: 22px;  
+        }
+        
+    }
+    .t2{
+        border-top: none;
+    }
+    embed{
+        border: 1px solid black;
+    }
+    .jianjie p{
+         padding-left: 80px;
+        padding-right: 80px;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    .min{
+        padding-bottom: 50px;
+        padding-left: 80px;
+        padding-right: 80px;
+
+        p{
+            font-size: 12px;
+            line-height: 2.0em;
+                margin: 0 0 22px;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+@media ( max-width:720px ){
+  .course .min {
+    padding-left: 10px;
+      padding-right: 10px;
+}  
+    .course .two{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .course .jianjie p{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}

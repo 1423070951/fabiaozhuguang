@@ -1,0 +1,61 @@
+/* 团队介绍 */
+.service{
+
+    padding-top: 60px; 
+    margin-bottom: 50px;
+    .container{
+        background-color: #fff;
+    }
+    .one{
+        h2{
+            font-size: 40px;
+            color:#80684d;
+            margin-top: 60px;
+            margin-bottom: 22px; 
+        }
+        p{
+            font-size: 28px;
+            margin-bottom: 36px;
+        }
+    }  
+      .min{
+        padding-bottom: 50px;
+        padding-left: 80px;
+        padding-right: 80px;
+        p{
+            font-size: 12px;
+        }
+        img{
+            width: 100%;
+        }
+          a{
+              color: #2e2d2d;
+              border: 2px solid #ccc;
+              padding: 10px 50px;
+              border-radius: 5px;
+              display: inline-block;
+              transition: all 400ms;
+              margin-bottom: 30px;
+              margin-top: 10px;
+              &:hover{
+                 background-color: rgb(89, 56, 34);
+                  text-decoration: none;
+                  transition: all 400ms;
+                  border: 2px solid rgb(89, 56, 34);
+                  color: white;
+              }
+              i{
+                  padding-right: 5px;
+              }
+          }
+}
+}
+@media (max-width:720px){
+    .service .min a {
+    padding: 9px 25px;
+}
+    .service  .min {
+   padding-left: 0;
+        padding-right: 0;
+}
+}
